@@ -1,6 +1,6 @@
 import { Component, ComponentFactoryResolver, Inject, Injector, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { loadRemoteModule } from 'projects/shell/src/federation-utils';
+import { loadRemoteModule } from '@angular-architects/module-federation';
 import { ActionComponent, Workflow } from 'shared-lib';
 import { PluginOptions } from '../plugin';
 
